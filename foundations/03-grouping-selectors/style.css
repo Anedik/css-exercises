@@ -1,0 +1,13 @@
+.blacky {
+    background-color: black;
+    color: white;
+}
+
+.yellowy {
+    background-color: #fdcb42;
+}
+
+.blacky, .yellowy {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
