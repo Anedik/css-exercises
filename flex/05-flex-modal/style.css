@@ -3,7 +3,11 @@
 html, body {
   height: 100%;
 }
-
+/*
+* {
+  border: 1px solid red;
+}
+*/
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -16,6 +20,11 @@ body {
 }
 
 .modal {
+  display: flex;
+  column-gap: 16px;
+
+  padding: 16px;
+
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -23,6 +32,8 @@ body {
 }
 
 .icon {
+  flex: 0 0 auto;
+
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -35,7 +46,31 @@ body {
   justify-content: center;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.head-close {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 5px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
 .close-button {
+  flex: 0 0 auto;
+
   background: #eee;
   border-radius: 50%;
   color: #888;
